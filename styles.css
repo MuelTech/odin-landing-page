@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 550px;
+    height: 700px;
 }
 
 .header-logo {
@@ -52,8 +52,9 @@ a {
 
 .hero-main {
     margin-top: 120px;
-    display: flex;
     height: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero-main-text {
@@ -78,13 +79,39 @@ a {
 }
 
 .hero-img {
-    margin-left: auto;
     padding-left: 50px;
     width: 70%;
 }
 
 .section-two {
+    text-align: center;
+    height: 500px;
+    padding: 30px;
+}
 
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.section-two-img {
+    width: 300px;
+    height: 250px;
+}
+
+.section-two-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .section-three {
